@@ -1,8 +1,5 @@
-# Getting started with draft-js-plugins
-Accompanying code for a tutorial walking you through using and creating a draft.js plugin based on the [draft-js-plugins](https://github.com/draft-js-plugins/draft-js-plugins) architecture.
-
-- The [blog post is here](http://localhost:3001/post/getting-started-with-draft-js-plugins/).
-- The resulting plugin (a plugin to highlight text) can be found on [npm here](https://www.npmjs.com/package/draft-js-highlight-plugin).
+# Barebones boilerplate for using draft.js
+I got bored of creating this so I just commmited it to git. It's basically an app created with `create-react-app` plus your draft js editor.
 
 -------------
 
