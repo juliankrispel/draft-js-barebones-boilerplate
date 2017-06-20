@@ -1,5 +1,5 @@
 # Barebones boilerplate for using draft.js
-I got bored of creating this so I just commmited it to git. It's basically an app created with `create-react-app` plus your draft js editor.
+I got bored of creating this for [some tutorials I wrote](https://reactrocket.com) so I just commmited it to git. It's basically an app created with `create-react-app` plus your draft js editor.
 
 -------------
 
