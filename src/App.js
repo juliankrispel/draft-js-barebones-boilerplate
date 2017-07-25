@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { convertToRaw, convertFromRaw, EditorState, Editor } from 'draft-js';
+import { draftToMarkdown, markdownToDraft } from 'markdown-draft-js';
 
 class App extends Component {
   constructor(props) {

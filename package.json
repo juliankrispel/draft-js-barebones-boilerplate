@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "draft-js": "^0.10.1",
+    "markdown-draft-js": "^0.3.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
