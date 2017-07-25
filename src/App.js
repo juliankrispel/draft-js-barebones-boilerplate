@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { EditorState, Editor } from 'draft-js';
+import { convertToRaw, convertFromRaw, EditorState, Editor } from 'draft-js';
 
 class App extends Component {
   constructor(props) {
@@ -15,13 +15,21 @@ class App extends Component {
     });
   }
 
+  convertToRaw = () => {
+    this.setState({ convertedContent: this.state.editorState.getCurrentContent() });
+  }
+
   render() {
     return (
-      <div>
+      <div className="main">
         <Editor
           editorState={this.state.editorState}
           onChange={this.onChange}
         />
+        <div>
+          <button onClick={this.convertToRaw}>Convert to raw</button>
+          <pre>{JSON.stringify(this.state.convertedContent, null, 2)}</pre>
+        </div>
       </div>
     );
   }
